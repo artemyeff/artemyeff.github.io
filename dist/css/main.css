@@ -776,7 +776,9 @@ button {
   margin-bottom: 10px;
 }
 .skills__list__item__icon svg {
+  width: auto;
   height: 30px;
+  max-width: 100%;
 }
 .skills__list__item__text {
   font-size: 14px;
@@ -822,7 +824,9 @@ button {
     margin-bottom: 10px;
   }
   .skills__list__item__icon svg {
+    width: auto;
     height: 50px;
+    max-width: 100%;
   }
   .skills__list__item__text {
     font-size: 14px;
@@ -860,7 +864,9 @@ button {
     margin-bottom: 15px;
   }
   .skills__list__item__icon svg {
+    width: auto;
     height: 70px;
+    max-width: 100%;
   }
   .skills__list__item__text {
     font-size: 20px;
@@ -875,7 +881,9 @@ button {
     margin-bottom: 15px;
   }
   .skills__list__item__icon svg {
+    width: auto;
     height: 100px;
+    max-width: 100%;
   }
 }
 .portfolio__row {

@@ -55,10 +55,12 @@
             align-items: center;
             margin: 0 15px;
             margin-bottom: 10px;
-            &__icon {
+                &__icon {
                 margin-bottom: 10px;
                 svg {
+                    width: auto;
                     height: 30px;
+                    max-width: 100%;
                 }
             }
 
@@ -112,7 +114,9 @@
                 &__icon {
                     margin-bottom: 10px;
                     svg {
+                        width: auto;
                         height: 50px;
+                        max-width: 100%;
                     }
                 }
     
@@ -156,7 +160,9 @@
                 &__icon {
                     margin-bottom: 15px;
                     svg {
-                        height: 70px; 
+                        width: auto;
+                        height: 70px;
+                        max-width: 100%;
                     }
                 }
     
@@ -178,7 +184,9 @@
                 &__icon {
                     margin-bottom: 15px;
                     svg {
+                        width: auto;
                         height: 100px;
+                        max-width: 100%;
                     }
                 }
             }
