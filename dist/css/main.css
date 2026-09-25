@@ -26,6 +26,17 @@ body .fixed-scroll {
 
 #main {
   overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.bg-particles {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
 }
 
 section {
@@ -480,15 +491,15 @@ button {
 }
 
 @media (min-width: 1024px) {
+  .header .logo svg {
+    width: 310px;
+  }
   .header {
     /* background-color: #293744; */
     position: fixed;
     z-index: 1000;
     padding: 20px 0;
     width: 100%;
-  }
-  .header .logo svg {
-    width: 310px;
   }
   .header__content {
     display: flex;
@@ -800,7 +811,7 @@ button {
     flex-wrap: wrap;
   }
   .skills__list__item {
-    width: calc(16.6666666667% - 30px);
+    width: calc(14.2857142857% - 30px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -838,7 +849,7 @@ button {
     width: 1024px;
   }
   .skills__list__item {
-    width: calc(16.6666666667% - 30px);
+    width: calc(14.2857142857% - 30px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -852,7 +863,7 @@ button {
     height: 70px;
   }
   .skills__list__item__text {
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
   }
 }
@@ -864,7 +875,7 @@ button {
     margin-bottom: 15px;
   }
   .skills__list__item__icon svg {
-    height: 128px;
+    height: 100px;
   }
 }
 .portfolio__row {
@@ -1059,7 +1070,7 @@ button {
   position: relative;
   width: 300px;
   height: 190px;
-  background-image: url("/img/notebook.png");
+  background-image: url("../../img/notebook.png");
   background-size: cover;
   margin-bottom: 30px;
 }
@@ -1079,7 +1090,7 @@ button {
     position: relative;
     width: 400px;
     height: 270px;
-    background-image: url("/img/notebook.png");
+    background-image: url("../../img/notebook.png");
     background-size: cover;
     margin-bottom: 30px;
   }
@@ -1161,7 +1172,7 @@ button {
     position: relative;
     width: 500px;
     height: 320px;
-    background-image: url("/img/notebook.png");
+    background-image: url("../../img/notebook.png");
   }
   .portfolio-item__view__image {
     position: absolute;
@@ -1205,7 +1216,7 @@ button {
     position: relative;
     width: 500px;
     height: 320px;
-    background-image: url("/img/notebook.png");
+    background-image: url("../../img/notebook.png");
   }
   .portfolio-item__view__image {
     position: absolute;
@@ -1249,7 +1260,7 @@ button {
     position: relative;
     width: 700px;
     height: 470px;
-    background-image: url("/img/notebook.png");
+    background-image: url("../../img/notebook.png");
   }
   .portfolio-item__view__image {
     position: absolute;
@@ -1293,7 +1304,7 @@ button {
     position: relative;
     width: 926px;
     height: 625px;
-    background-image: url("/img/notebook.png");
+    background-image: url("../../img/notebook.png");
   }
   .portfolio-item__view__image {
     position: absolute;
